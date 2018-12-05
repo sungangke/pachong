@@ -10,8 +10,8 @@ r2 = requests.post("https://github.com/session",
                    data={
                        'utf-8':'✓',
                        'authenticity_token':'token',
-                       'login':'sungangke',
-                       'password':'ksg540730035215*',
+                       'login':'xxx', #登录的用户名
+                       'password':'*******', #登录的用户密码
                        'commit':'Sign in'
                    },
                    cookies=r1_cookies
